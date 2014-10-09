@@ -1,0 +1,6 @@
+#IBM Business Process Manager v8.5.5
+# Obs.: You must have license for the product or trial.
+# Download and put the binaries below in this folder.
+BPM_Adv_V855_Linux_x86_1_of_3.tar.gz
+BPM_Adv_V855_Linux_x86_2_of_3.tar.gz
+BPM_Adv_V855_Linux_x86_3_of_3.tar.gz
