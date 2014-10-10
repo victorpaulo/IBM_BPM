@@ -17,7 +17,7 @@ echo "192.168.1.2 bpm.domain.com" >> /etc/hosts
 echo "192.168.1.3 ihs.domain.com" >> /etc/hosts
 
 echo "Unziping the DB2 binaries" | tee -a $log_file
-tar xvfz /vagrant/binario_db2/DB2_Svr_10.5.0.3_Linux_x86-64.tar.gz -C /tmp/db2_server > /dev/null
+tar xvfz /vagrant/binary_db2/DB2_Svr_10.5.0.3_Linux_x86-64.tar.gz -C /tmp/db2_server > /dev/null
 
 echo "Installing DB2 v10.5 using response file" | tee -a $log_file 
 /tmp/db2_server/server/db2setup -r /vagrant/db2ese.rsp | tee -a $log_file 

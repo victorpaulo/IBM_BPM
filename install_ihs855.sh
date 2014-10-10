@@ -20,11 +20,11 @@ echo "192.168.1.3 ihs.bb.com" >> /etc/hosts
 
 
 echo "Unzipping  Installation Manager IM v1.7.3" | tee -a $log_file
-echo "CMD> [unzip /vagrant/binario_ihs/agent.installer.linux.gtk.x86_1.7.3000.20140521_1925.zip -d /tmp/IM_server]"
-unzip /vagrant/binario_ihs/agent.installer.linux.gtk.x86_1.7.3000.20140521_1925.zip -d /tmp/IM_server
+echo "CMD> [unzip /vagrant/binary_ihs/agent.installer.linux.gtk.x86_1.7.3000.20140521_1925.zip -d /tmp/IM_server]"
+unzip /vagrant/binary_ihs/agent.installer.linux.gtk.x86_1.7.3000.20140521_1925.zip -d /tmp/IM_server
 
 echo "Descompactando o IHS 8.5.5" | tee -a $log_file
-ls /vagrant/binario_ihs/WAS_Liberty_Core_*.zip | while read line
+ls /vagrant/binary_ihs/WAS_Liberty_Core_*.zip | while read line
 do
 	echo "CMD> [unzip $line -d /tmp/http_server]"
 	unzip $line -d /tmp/http_server > /dev/null
