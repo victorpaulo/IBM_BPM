@@ -1,0 +1,1 @@
+# This folders and databases DDL and DML files were created by the BPM tool during the installation of binaries. Please look at the docs in order to understand this process. In my case I chose the DB2 and the tool created the files for this specific database.
