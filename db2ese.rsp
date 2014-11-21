@@ -2,6 +2,14 @@
 * Generated response file used by the DB2 Setup wizard
 * generation time: 12/27/12 12:40 PM
 *-----------------------------------------------------
+* +------------------------------------------------------------------------+
+* | Licensed Materials - Property of IBM                                   |
+* | (C) Copyright IBM Corp. 2010, 2011.  All Rights Reserved.              |
+* |                                                                        |
+* | US Government Users Restricted Rights - Use, duplication or disclosure |
+* | restricted by GSA ADP Schedule Contract with IBM Corp.                 |
+* +------------------------------------------------------------------------+
+
 *  Product Installation 
 LIC_AGREEMENT       = ACCEPT
 PROD       = DB2_SERVER_EDITION
