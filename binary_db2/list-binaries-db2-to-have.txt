@@ -1,4 +1,12 @@
 # Obs.: You must have license for the product or trial.
 # Download and put the binaries below in this folder.
 
-DB2_Svr_10.5.0.3_Linux_x86-64.tar.gz
+# +------------------------------------------------------------------------+
+# | Licensed Materials - Property of IBM                                   |
+# | (C) Copyright IBM Corp. 2010, 2011.  All Rights Reserved.              |
+# |                                                                        |
+# | US Government Users Restricted Rights - Use, duplication or disclosure |
+# | restricted by GSA ADP Schedule Contract with IBM Corp.                 |
+# +------------------------------------------------------------------------+
+
+Image Name: DB2_Svr_10.5.0.3_Linux_x86-64.tar.gz
