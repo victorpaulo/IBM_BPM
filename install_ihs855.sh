@@ -31,7 +31,7 @@ echo "CMD> [unzip /vagrant/binary_ihs/agent.installer.linux.gtk.x86_1.7.3000.201
 unzip /vagrant/binary_ihs/agent.installer.linux.gtk.x86_1.7.3000.20140521_1925.zip -d /tmp/IM_server
 
 echo "Descompactando o IHS 8.5.5" | tee -a $log_file
-ls /vagrant/binary_ihs/WAS_Liberty_Core_*.zip | while read line
+for line in /vagrant/binary_ihs/WAS_Liberty_Core_*.zip
 do
 	echo "CMD> [unzip $line -d /tmp/http_server]"
 	unzip $line -d /tmp/http_server > /dev/null
