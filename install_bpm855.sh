@@ -37,7 +37,7 @@ echo "192.168.1.3 ihs.domain.com" >> /etc/hosts
 mkdir -p /tmp/bpm_server
 
 echo "Unzip BPM binary v8.5.5" | tee -a $log_file
-ls /vagrant/binary_bpm/ | while read line
+for line in /vagrant/binary_bpm/*
 do
 	echo "CMD> [tar xvfz /vagrant/binary_bpm/$line -C /tmp/bpm_server]"
 	tar xvfz /vagrant/binary_bpm/$line -C /tmp/bpm_server > /dev/null
